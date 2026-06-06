@@ -1,0 +1,33 @@
+:root {
+  /* Museum Base Palette */
+  --color-hero: #FF7846;      /* 入口 / 主展場 */
+  --color-stone: #736E69;     /* 展牆 / 中性區 */
+  --color-light: #E6E6E6;     /* 光 / 白石背景 */
+
+  /* Text colors */
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a4a4a;
+
+  /* Layout helpers */
+  --bg: var(--color-light);
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--color-light);
+  color: var(--text-primary);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}

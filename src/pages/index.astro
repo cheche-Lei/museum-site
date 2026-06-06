@@ -1,13 +1,17 @@
 ---
+import Layout from "../layouts/Layout.astro";
 ---
 
-<h1>Museum of Lei</h1>
+<Layout>
+  <section class="section" style="background: var(--color-hero);">
+    <h1>Hero</h1>
+  </section>
 
-<p>Welcome to my personal museum.</p>
+  <section class="section" style="background: var(--color-stone);">
+    <h1>About</h1>
+  </section>
 
-<h2>Exhibitions</h2>
-
-<ul>
-  <li>Split Bill Tool</li>
-  <li>NIS System</li>
-</ul>
+  <section class="section" style="background: var(--color-light);">
+    <h1>Projects</h1>
+  </section>
+</Layout>
